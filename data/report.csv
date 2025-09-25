@@ -1,11 +1,11 @@
 name,command,bytes_recv,bytes_sent,user_time,cpu_time,total_time,max_memory_usage,return_code
-conda_create_python_conda_forge,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,89164141,375850,8.83,3.61,20107525926,11009830912,0
-conda_create_python_conda_forge,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,0,0,2.43,1.36,5046083836,1823870976,0
-conda_create_python_conda_forge,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,0,0,2.21,0.49,4023108210,1950388224,0
-conda_create_python_conda_forge,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,0,0,2.19,0.46,4015098544,1434206208,0
-conda_create_python_conda_forge,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,0,0,2.19,0.42,4019121752,1440145408,0
-conda_create_python_main,python -m conda create --name profile-env --channel main --override-channels --yes --quiet python,75968732,418391,10.35,1.42,19150435133,5536256000,0
-conda_create_python_main,python -m conda create --name profile-env --channel main --override-channels --yes --quiet python,0,0,1.14,0.3,3030023876,814768128,0
-conda_create_python_main,python -m conda create --name profile-env --channel main --override-channels --yes --quiet python,42,42,1.12,0.26,3030176126,783896576,0
-conda_create_python_main,python -m conda create --name profile-env --channel main --override-channels --yes --quiet python,0,0,1.13,0.25,3025886502,782057472,0
-conda_create_python_main,python -m conda create --name profile-env --channel main --override-channels --yes --quiet python,0,0,1.13,0.28,3030347751,825823232,0
+conda_create_python_conda_forge,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,89666236,747958,7.61,2.49,23587496011,776790016,0
+conda_create_python_conda_forge,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,0,0,2.21,0.4,4015248210,366022656,0
+conda_create_python_conda_forge,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,0,0,2.2,0.4,4019007710,369520640,0
+conda_create_python_conda_forge,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,0,0,2.24,0.41,4019259586,355610624,0
+conda_create_python_conda_forge,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,0,0,2.18,0.4,4016729085,372027392,0
+conda_create_python_main,python -m conda create --name profile-env --channel main --override-channels --yes --quiet python,76304182,736091,10.09,1.4,26640474012,214724608,0
+conda_create_python_main,python -m conda create --name profile-env --channel main --override-channels --yes --quiet python,0,0,1.11,0.27,3020084335,197427200,0
+conda_create_python_main,python -m conda create --name profile-env --channel main --override-channels --yes --quiet python,0,0,1.15,0.29,3012437877,211935232,0
+conda_create_python_main,python -m conda create --name profile-env --channel main --override-channels --yes --quiet python,0,0,1.09,0.29,3021443502,197414912,0
+conda_create_python_main,python -m conda create --name profile-env --channel main --override-channels --yes --quiet python,0,0,1.1,0.27,3022759709,197296128,0
