@@ -1,0 +1,15 @@
+name: perfpy-conda
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+    # Add pip packages here
+    # - requests
+    # - beautifulsoup4

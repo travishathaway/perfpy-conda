@@ -1,0 +1,20 @@
+services:
+  perfpy-conda:
+    build: .
+    container_name: perfpy-conda-app
+    volumes:
+      - .:/app
+      - /app/.git  # Exclude .git directory
+    working_dir: /app
+    environment:
+      - CONDA_DEFAULT_ENV=perfpy-conda
+    # Uncomment the ports section if you need to expose ports
+    # ports:
+    #   - "8888:8888"  # For Jupyter notebook
+    #   - "8000:8000"  # For web applications
+    # 
+    # Uncomment to keep container running
+    # command: tail -f /dev/null
+    
+    # Or run a specific command
+    command: conda run --no-capture-output -n perfpy-conda python app.py
