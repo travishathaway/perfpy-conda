@@ -1,44 +1,80 @@
 {
   "commands": [
     {
-      "name": "conda_create_python_conda_forge",
+       "name": "set_config",
+       "command": "python -m conda config --set plugins.use_sharded_repodata true"
+    },
+    {
+      "name": "conda_create_python_conda_forge_sharded_cold",
+      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python"
+    },
+    {
+      "name": "clean",
+      "command": "python -m conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_python_conda_forge_sharded_cold",
+      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python"
+    },
+    {
+      "name": "clean",
+      "command": "python -m conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_python_conda_forge_sharded_cold",
+      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python"
+    },
+    {
+      "name": "conda_create_python_conda_forge_sharded_warm",
+      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python"
+    },
+    {
+      "name": "conda_create_python_conda_forge_sharded_warm",
+      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python"
+    },
+    {
+      "name": "conda_create_python_conda_forge_sharded_warm",
+      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python"
+    },
+    {
+      "name": "clean",
+      "command": "python -m conda clean --all --yes"
+    },
+    {
+       "name": "set_config",
+       "command": "python -m conda config --set plugins.use_sharded_repodata false"
+    },
+    {
+      "name": "conda_create_python_conda_forge_cold",
       "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python"
     },
     {
-      "name": "conda_create_python_conda_forge",
+      "name": "clean",
+      "command": "python -m conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_python_conda_forge_cold",
       "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python"
     },
     {
-      "name": "conda_create_python_conda_forge",
+      "name": "clean",
+      "command": "python -m conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_python_conda_forge_cold",
       "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python"
     },
     {
-      "name": "conda_create_python_conda_forge",
+      "name": "conda_create_python_conda_forge_warm",
       "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python"
     },
     {
-      "name": "conda_create_python_conda_forge",
+      "name": "conda_create_python_conda_forge_warm",
       "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python"
     },
     {
-      "name": "conda_create_python_main",
-      "command": "python -m conda create --name profile-env --channel main --override-channels --yes --quiet python"
-    },
-    {
-      "name": "conda_create_python_main",
-      "command": "python -m conda create --name profile-env --channel main --override-channels --yes --quiet python"
-    },
-    {
-      "name": "conda_create_python_main",
-      "command": "python -m conda create --name profile-env --channel main --override-channels --yes --quiet python"
-    },
-    {
-      "name": "conda_create_python_main",
-      "command": "python -m conda create --name profile-env --channel main --override-channels --yes --quiet python"
-    },
-    {
-      "name": "conda_create_python_main",
-      "command": "python -m conda create --name profile-env --channel main --override-channels --yes --quiet python"
+      "name": "conda_create_python_conda_forge_warm",
+      "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python"
     }
   ]
 }

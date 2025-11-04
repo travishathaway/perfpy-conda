@@ -1,0 +1,18 @@
+[project]
+name = "perfpy-conda"
+version = "0.1.0"
+description = "Performance profiling for conda operations"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=2.0.0",
+    "jupyterlab>=4.0.0",
+    "plotly>=5.18.0",
+    "kaleido>=0.2.1",  # For static image export from plotly
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = []
