@@ -1,0 +1,61 @@
+name,command,bytes_recv,bytes_sent,user_time,cpu_time,total_time,max_memory_usage,return_code
+set_config,python -m conda config --set plugins.use_sharded_repodata true,236,0,0.0,0.0,502067833,286720,0
+conda_create_conda_forge_sharded_cold_python,python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python,56389218,898167,3.01,1.22,19622138509,220315648,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.28,0.03,1003976125,78831616,0
+clean,python -m conda clean --all --yes,0,0,0.28,0.13,1007687042,70717440,0
+conda_create_conda_forge_sharded_cold_python,python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python,56382728,870859,2.78,1.05,12066085547,149168128,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.28,0.03,1006520750,78831616,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,503247459,278528,0
+conda_create_conda_forge_sharded_cold_python,python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python,56374916,878942,2.79,0.93,12057247130,138379264,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.28,0.03,1003581208,78843904,0
+conda_create_conda_forge_sharded_warm_python,python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python,18642,29490,1.14,0.16,2008849209,194125824,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.27,0.03,1008889917,78778368,0
+conda_create_conda_forge_sharded_warm_python,python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python,18639,29490,1.17,0.13,2014872626,122839040,0
+remove,python -m conda remove --name profile-env --all --yes,42,42,0.26,0.05,1006572667,78848000,0
+conda_create_conda_forge_sharded_warm_python,python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python,18375,29226,1.14,0.14,2009285751,122986496,0
+remove,python -m conda remove --name profile-env --all --yes,264,264,0.27,0.04,1009673959,78696448,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,503490000,278528,0
+conda_create_conda_forge_sharded_cold_datascience,python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet pandas plotly scipy,110753975,2649193,6.08,2.73,26106122387,230727680,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.44,0.29,1506267167,89210880,0
+clean,python -m conda clean --all --yes,0,0,0.26,0.21,1003958250,70721536,0
+conda_create_conda_forge_sharded_cold_datascience,python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet pandas plotly scipy,110671195,2556939,6.32,3.14,31153452722,226770944,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.43,0.3,1518022709,89214976,0
+clean,python -m conda clean --all --yes,0,0,0.24,0.23,1005573417,70709248,0
+conda_create_conda_forge_sharded_cold_datascience,python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet pandas plotly scipy,110973548,2766715,6.96,3.67,38688898142,210739200,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.69,0.6,2012378793,89059328,0
+conda_create_conda_forge_sharded_warm_datascience,python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet pandas plotly scipy,18642,29542,2.53,0.57,6024581753,207187968,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.43,0.29,1509876750,89186304,0
+conda_create_conda_forge_sharded_warm_datascience,python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet pandas plotly scipy,18643,29542,2.56,0.36,6031837003,226906112,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.46,0.29,1509907917,89059328,0
+conda_create_conda_forge_sharded_warm_datascience,python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet pandas plotly scipy,33656,35637,2.61,0.62,30757219598,229101568,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.45,0.29,1507646876,89133056,0
+clean,python -m conda clean --all --yes,0,0,0.26,0.21,1007836167,70721536,0
+set_config,python -m conda config --set plugins.use_sharded_repodata false,0,0,0.0,0.0,504303626,286720,0
+conda_create_conda_forge_cold_python,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,98717636,734069,8.03,2.45,23613666928,852410368,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.27,0.04,1004620126,79626240,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,506489750,286720,0
+conda_create_conda_forge_cold_python,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,98698018,641349,8.3,2.55,24137536802,810917888,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.28,0.02,1009880834,79630336,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,504737376,290816,0
+conda_create_conda_forge_cold_python,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,98706510,642603,8.23,2.9,27140505512,829689856,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.27,0.04,1004337126,79634432,0
+conda_create_conda_forge_warm_python,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,0,0,4.18,1.01,7035021420,800079872,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.28,0.02,1004618918,79630336,0
+conda_create_conda_forge_warm_python,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,0,0,4.23,0.93,7027049129,802566144,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.26,0.05,1005325167,79630336,0
+conda_create_conda_forge_warm_python,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python,0,0,4.24,0.96,7056217170,800718848,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.27,0.03,1004639793,79622144,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,502295583,290816,0
+conda_create_conda_forge_cold_datascience,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet pandas plotly scipy,152429245,1690542,10.54,4.59,34180383349,838356992,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.46,0.31,1509378792,89993216,0
+clean,python -m conda clean --all --yes,0,0,0.26,0.21,1009079917,70746112,0
+conda_create_conda_forge_cold_datascience,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet pandas plotly scipy,152364237,1598190,10.92,4.66,33690308599,829444096,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.44,0.29,1511579209,90017792,0
+clean,python -m conda clean --all --yes,0,0,0.26,0.22,1005416959,70725632,0
+conda_create_conda_forge_cold_datascience,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet pandas plotly scipy,152426736,1654860,10.91,5.01,39247866643,859672576,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.46,0.31,1522583501,90005504,0
+conda_create_conda_forge_warm_datascience,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet pandas plotly scipy,0,0,5.07,1.12,9561321713,800661504,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.44,0.33,1527723042,90009600,0
+conda_create_conda_forge_warm_datascience,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet pandas plotly scipy,0,0,4.99,1.13,9591665755,800382976,0
+remove,python -m conda remove --name profile-env --all --yes,0,0,0.44,0.3,1518865459,89997312,0
+conda_create_conda_forge_warm_datascience,python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet pandas plotly scipy,0,0,4.93,1.37,9582906921,790040576,0
