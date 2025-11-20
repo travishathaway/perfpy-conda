@@ -5,6 +5,7 @@ COPY profiles/ .
 COPY scripts/ .
 
 RUN conda install conda-canary/label/dev::conda-libmamba-solver  --yes --quiet
+RUN conda install conda-forge::py-rattler --yes --quiet
 RUN pip install git+https://github.com/travishathaway/perfpy.git
 RUN mkdir data
 

@@ -1,0 +1,36 @@
+name,command,bytes_recv,bytes_sent,user_time,cpu_time,total_time,max_memory_usage,return_code
+conda_create_conda_forge_sharded_cold_python,python scripts/sharded_repodata_rattler.py conda-forge-sharded python,808168,18537,0.07,0.06,1008674959,44728320,0
+clean,python scripts/rattler_clean_cache.py,220,0,0.0,0.0,505653542,274432,0
+conda_create_conda_forge_sharded_cold_python,python scripts/sharded_repodata_rattler.py conda-forge-sharded python,262,42,0.0,0.0,504088750,290816,0
+clean,python scripts/rattler_clean_cache.py,0,0,0.0,0.0,509075792,0,0
+conda_create_conda_forge_sharded_cold_python,python scripts/sharded_repodata_rattler.py conda-forge-sharded python,0,0,0.0,0.0,505192375,290816,0
+conda_create_conda_forge_sharded_warm_python,python scripts/sharded_repodata_rattler.py conda-forge-sharded python,0,0,0.0,0.0,508677542,0,0
+conda_create_conda_forge_sharded_warm_python,python scripts/sharded_repodata_rattler.py conda-forge-sharded python,0,0,0.0,0.0,510467251,286720,0
+conda_create_conda_forge_sharded_warm_python,python scripts/sharded_repodata_rattler.py conda-forge-sharded python,0,0,0.0,0.0,506964583,274432,0
+clean,python scripts/rattler_clean_cache.py,0,0,0.0,0.0,511436626,278528,0
+conda_create_conda_forge_sharded_cold_datascience,python scripts/sharded_repodata_rattler.py conda-forge-sharded pandas plotly scipy,814111,22103,0.22,0.09,1511777126,96120832,0
+clean,python scripts/rattler_clean_cache.py,0,0,0.0,0.0,502140208,0,0
+conda_create_conda_forge_sharded_cold_datascience,python scripts/sharded_repodata_rattler.py conda-forge-sharded pandas plotly scipy,0,0,0.0,0.0,511187292,290816,0
+clean,python scripts/rattler_clean_cache.py,0,0,0.0,0.0,510538084,290816,0
+conda_create_conda_forge_sharded_cold_datascience,python scripts/sharded_repodata_rattler.py conda-forge-sharded pandas plotly scipy,0,0,0.0,0.0,509528250,290816,0
+conda_create_conda_forge_sharded_warm_datascience,python scripts/sharded_repodata_rattler.py conda-forge-sharded pandas plotly scipy,0,0,0.0,0.0,503410042,278528,0
+conda_create_conda_forge_sharded_warm_datascience,python scripts/sharded_repodata_rattler.py conda-forge-sharded pandas plotly scipy,0,0,0.0,0.0,510351334,135168,0
+conda_create_conda_forge_sharded_warm_datascience,python scripts/sharded_repodata_rattler.py conda-forge-sharded pandas plotly scipy,0,0,0.0,0.0,504790209,135168,0
+clean,python scripts/rattler_clean_cache.py,0,0,0.0,0.0,505620167,290816,0
+conda_create_conda_forge_cold_python,python scripts/sharded_repodata_rattler.py conda-forge python,50191467,596690,4.15,4.49,35161364974,387969024,0
+clean,python scripts/rattler_clean_cache.py,0,0,0.0,0.0,506512333,0,0
+conda_create_conda_forge_cold_python,python scripts/sharded_repodata_rattler.py conda-forge python,0,0,0.9,0.11,1513538376,56115200,0
+clean,python scripts/rattler_clean_cache.py,0,0,0.0,0.0,509725417,290816,0
+conda_create_conda_forge_cold_python,python scripts/sharded_repodata_rattler.py conda-forge python,0,0,0.43,0.06,1013411834,75776000,0
+conda_create_conda_forge_warm_python,python scripts/sharded_repodata_rattler.py conda-forge python,0,0,0.45,0.04,1008076500,108257280,0
+conda_create_conda_forge_warm_python,python scripts/sharded_repodata_rattler.py conda-forge python,0,0,0.45,0.05,1010557833,105791488,0
+conda_create_conda_forge_warm_python,python scripts/sharded_repodata_rattler.py conda-forge python,0,0,0.44,0.05,1008562584,108675072,0
+clean,python scripts/rattler_clean_cache.py,0,0,0.0,0.0,507621042,290816,0
+conda_create_conda_forge_cold_datascience,python scripts/sharded_repodata_rattler.py conda-forge pandas plotly scipy,0,0,0.97,0.08,1522656917,108052480,0
+clean,python scripts/rattler_clean_cache.py,0,0,0.0,0.0,509865125,290816,0
+conda_create_conda_forge_cold_datascience,python scripts/sharded_repodata_rattler.py conda-forge pandas plotly scipy,0,0,0.96,0.1,1515047167,108896256,0
+clean,python scripts/rattler_clean_cache.py,0,0,0.0,0.0,506911291,290816,0
+conda_create_conda_forge_cold_datascience,python scripts/sharded_repodata_rattler.py conda-forge pandas plotly scipy,0,0,0.98,0.08,1512737626,94162944,0
+conda_create_conda_forge_warm_datascience,python scripts/sharded_repodata_rattler.py conda-forge pandas plotly scipy,0,0,0.97,0.09,1511221750,516718592,0
+conda_create_conda_forge_warm_datascience,python scripts/sharded_repodata_rattler.py conda-forge pandas plotly scipy,0,0,0.96,0.1,1511803334,527781888,0
+conda_create_conda_forge_warm_datascience,python scripts/sharded_repodata_rattler.py conda-forge pandas plotly scipy,0,0,0.89,0.11,1516172917,447782912,0

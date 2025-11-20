@@ -1,0 +1,144 @@
+{
+  "commands": [
+    {
+      "name": "conda_create_conda_forge_sharded_cold_python",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge-sharded python"
+    },
+    {
+      "name": "clean",
+      "command": "python scripts/rattler_clean_cache.py"
+    },
+    {
+      "name": "conda_create_conda_forge_sharded_cold_python",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge-sharded python"
+    },
+    {
+      "name": "clean",
+      "command": "python scripts/rattler_clean_cache.py"
+    },
+    {
+      "name": "conda_create_conda_forge_sharded_cold_python",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge-sharded python"
+    },
+    {
+      "name": "conda_create_conda_forge_sharded_warm_python",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge-sharded python"
+    },
+    {
+      "name": "conda_create_conda_forge_sharded_warm_python",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge-sharded python"
+    },
+    {
+      "name": "conda_create_conda_forge_sharded_warm_python",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge-sharded python"
+    },
+    {
+      "name": "clean",
+      "command": "python scripts/rattler_clean_cache.py"
+    },
+    {
+      "name": "conda_create_conda_forge_sharded_cold_datascience",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge-sharded pandas plotly scipy"
+    },
+    {
+      "name": "clean",
+      "command": "python scripts/rattler_clean_cache.py"
+    },
+    {
+      "name": "conda_create_conda_forge_sharded_cold_datascience",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge-sharded pandas plotly scipy"
+    },
+    {
+      "name": "clean",
+      "command": "python scripts/rattler_clean_cache.py"
+    },
+    {
+      "name": "conda_create_conda_forge_sharded_cold_datascience",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge-sharded pandas plotly scipy"
+    },
+    {
+      "name": "conda_create_conda_forge_sharded_warm_datascience",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge-sharded pandas plotly scipy"
+    },
+    {
+      "name": "conda_create_conda_forge_sharded_warm_datascience",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge-sharded pandas plotly scipy"
+    },
+    {
+      "name": "conda_create_conda_forge_sharded_warm_datascience",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge-sharded pandas plotly scipy"
+    },
+    {
+      "name": "clean",
+      "command": "python scripts/rattler_clean_cache.py"
+    },
+    {
+      "name": "conda_create_conda_forge_cold_python",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge python"
+    },
+    {
+      "name": "clean",
+      "command": "python scripts/rattler_clean_cache.py"
+    },
+    {
+      "name": "conda_create_conda_forge_cold_python",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge python"
+    },
+    {
+      "name": "clean",
+      "command": "python scripts/rattler_clean_cache.py"
+    },
+    {
+      "name": "conda_create_conda_forge_cold_python",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge python"
+    },
+    {
+      "name": "conda_create_conda_forge_warm_python",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge python"
+    },
+    {
+      "name": "conda_create_conda_forge_warm_python",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge python"
+    },
+    {
+      "name": "conda_create_conda_forge_warm_python",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge python"
+    },
+    {
+      "name": "clean",
+      "command": "python scripts/rattler_clean_cache.py"
+    },
+    {
+      "name": "conda_create_conda_forge_cold_datascience",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge pandas plotly scipy"
+    },
+    {
+      "name": "clean",
+      "command": "python scripts/rattler_clean_cache.py"
+    },
+    {
+      "name": "conda_create_conda_forge_cold_datascience",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge pandas plotly scipy"
+    },
+    {
+      "name": "clean",
+      "command": "python scripts/rattler_clean_cache.py"
+    },
+    {
+      "name": "conda_create_conda_forge_cold_datascience",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge pandas plotly scipy"
+    },
+    {
+      "name": "conda_create_conda_forge_warm_datascience",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge pandas plotly scipy"
+    },
+    {
+      "name": "conda_create_conda_forge_warm_datascience",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge pandas plotly scipy"
+    },
+    {
+      "name": "conda_create_conda_forge_warm_datascience",
+      "command": "python scripts/sharded_repodata_rattler.py conda-forge pandas plotly scipy"
+    }
+  ]
+}

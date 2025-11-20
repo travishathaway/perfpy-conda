@@ -28,7 +28,7 @@ def main() -> None:
 
     with tempfile.TemporaryDirectory() as tmp_path:
         in_state = SolverInputState(str(Path(tmp_path) / "env"), requested=requested)
-        LibMambaIndexHelper(
+        index = LibMambaIndexHelper(
             # this is expanded to noarch, linux-64 for shards.
             channels=[Channel(f"{load_channel}/linux-64")],
             subdirs=(
@@ -39,6 +39,9 @@ def main() -> None:
             pkgs_dirs=(),  # do not load local cache as a channel
             in_state=in_state,
         )
+        # Make sure we generated something valid
+        assert len(index.repos) == 2
+        assert index.search("python")
 
 
 if __name__ == "__main__":
