@@ -20,7 +20,11 @@ def main() -> None:
     load_channel = sys.argv[1]
     requested = sys.argv[2:]
 
+    # Need to load environment configuration
+    context.__init__()
+
     print(f"Running benchmarking for {load_channel} {' '.join(requested)}")
+    print(f"Shards enabled: {context.plugins.use_sharded_repodata}")
 
     with tempfile.TemporaryDirectory() as tmp_path:
         in_state = SolverInputState(str(Path(tmp_path) / "env"), requested=requested)
