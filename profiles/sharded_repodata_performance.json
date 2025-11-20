@@ -6,11 +6,7 @@
     },
     {
       "name": "conda_create_conda_forge_sharded_cold_python",
-      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge-sharded python"
     },
     {
       "name": "clean",
@@ -18,11 +14,7 @@
     },
     {
       "name": "conda_create_conda_forge_sharded_cold_python",
-      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge-sharded python"
     },
     {
       "name": "clean",
@@ -30,35 +22,19 @@
     },
     {
       "name": "conda_create_conda_forge_sharded_cold_python",
-      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge-sharded python"
     },
     {
       "name": "conda_create_conda_forge_sharded_warm_python",
-      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge-sharded python"
     },
     {
       "name": "conda_create_conda_forge_sharded_warm_python",
-      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge-sharded python"
     },
     {
       "name": "conda_create_conda_forge_sharded_warm_python",
-      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet python"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge-sharded python"
     },
     {
       "name": "clean",
@@ -66,11 +42,7 @@
     },
     {
       "name": "conda_create_conda_forge_sharded_cold_datascience",
-      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet pandas plotly scipy"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge-sharded pandas plotly scipy"
     },
     {
       "name": "clean",
@@ -78,11 +50,7 @@
     },
     {
       "name": "conda_create_conda_forge_sharded_cold_datascience",
-      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet pandas plotly scipy"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge-sharded pandas plotly scipy"
     },
     {
       "name": "clean",
@@ -90,35 +58,19 @@
     },
     {
       "name": "conda_create_conda_forge_sharded_cold_datascience",
-      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet pandas plotly scipy"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge-sharded pandas plotly scipy"
     },
     {
       "name": "conda_create_conda_forge_sharded_warm_datascience",
-      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet pandas plotly scipy"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge-sharded pandas plotly scipy"
     },
     {
       "name": "conda_create_conda_forge_sharded_warm_datascience",
-      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet pandas plotly scipy"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge-sharded pandas plotly scipy"
     },
     {
       "name": "conda_create_conda_forge_sharded_warm_datascience",
-      "command": "python -m conda create --name profile-env --channel conda-forge-sharded --override-channels --yes --quiet pandas plotly scipy"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge-sharded pandas plotly scipy"
     },
     {
       "name": "clean",
@@ -130,11 +82,7 @@
     },
     {
       "name": "conda_create_conda_forge_cold_python",
-      "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge python"
     },
     {
       "name": "clean",
@@ -142,11 +90,7 @@
     },
     {
       "name": "conda_create_conda_forge_cold_python",
-      "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge python"
     },
     {
       "name": "clean",
@@ -154,35 +98,19 @@
     },
     {
       "name": "conda_create_conda_forge_cold_python",
-      "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge python"
     },
     {
       "name": "conda_create_conda_forge_warm_python",
-      "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge python"
     },
     {
       "name": "conda_create_conda_forge_warm_python",
-      "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge python"
     },
     {
       "name": "conda_create_conda_forge_warm_python",
-      "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet python"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge python"
     },
     {
       "name": "clean",
@@ -190,11 +118,7 @@
     },
     {
       "name": "conda_create_conda_forge_cold_datascience",
-      "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet pandas plotly scipy"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge pandas plotly scipy"
     },
     {
       "name": "clean",
@@ -202,11 +126,7 @@
     },
     {
       "name": "conda_create_conda_forge_cold_datascience",
-      "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet pandas plotly scipy"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge pandas plotly scipy"
     },
     {
       "name": "clean",
@@ -214,31 +134,19 @@
     },
     {
       "name": "conda_create_conda_forge_cold_datascience",
-      "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet pandas plotly scipy"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge pandas plotly scipy"
     },
     {
       "name": "conda_create_conda_forge_warm_datascience",
-      "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet pandas plotly scipy"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge pandas plotly scipy"
     },
     {
       "name": "conda_create_conda_forge_warm_datascience",
-      "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet pandas plotly scipy"
-    },
-    {
-      "name": "remove",
-      "command": "python -m conda remove --name profile-env --all --yes"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge pandas plotly scipy"
     },
     {
       "name": "conda_create_conda_forge_warm_datascience",
-      "command": "python -m conda create --name profile-env --channel conda-forge --override-channels --yes --quiet pandas plotly scipy"
+      "command": "python scripts/sharded_repodata_fetching.py conda-forge pandas plotly scipy"
     }
   ]
 }
