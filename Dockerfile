@@ -1,5 +1,7 @@
 FROM continuumio/miniconda3:latest
 
+RUN apt update && apt upgrade -y
+
 WORKDIR /app/
 COPY profiles/ .
 COPY scripts/ .

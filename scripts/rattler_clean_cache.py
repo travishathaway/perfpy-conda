@@ -1,13 +1,15 @@
 """
 Removes rattler cache for linux-64 for conda-forge and conda-forge-sharded
 """
-from rattler import Gateway
+import os
+import shutil
+from pathlib import Path
 
 
 def main():
-    gateway = Gateway()
-    gateway.clear_repodata_cache("conda-forge", ["linux-64"])
-    gateway.clear_repodata_cache("conda-forge-sharded", ["linux-64"])
+    shutil.rmtree(
+        Path(os.path.expanduser("~")) / ".cache/rattler"
+    )
 
 
 if __name__ == "__main__":

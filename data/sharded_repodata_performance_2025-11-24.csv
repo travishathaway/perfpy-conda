@@ -1,0 +1,38 @@
+name,command,bytes_recv,bytes_sent,user_time,cpu_time,total_time,max_memory_usage,return_code
+set_config,python -m conda config --set plugins.use_sharded_repodata true,150,0,0.0,0.0,502995333,290816,0
+conda_create_conda_forge_sharded_cold_python,python scripts/sharded_repodata_fetching.py conda-forge-sharded python,1366915,70041,0.35,0.11,3011333043,98512896,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,502575375,290816,0
+conda_create_conda_forge_sharded_cold_python,python scripts/sharded_repodata_fetching.py conda-forge-sharded python,1367047,70113,0.3,0.06,1513705501,98435072,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,504179792,135168,0
+conda_create_conda_forge_sharded_cold_python,python scripts/sharded_repodata_fetching.py conda-forge-sharded python,1367113,70287,0.3,0.06,1512195334,98353152,0
+conda_create_conda_forge_sharded_warm_python,python scripts/sharded_repodata_fetching.py conda-forge-sharded python,0,0,0.3,0.04,1007098084,11436032,0
+conda_create_conda_forge_sharded_warm_python,python scripts/sharded_repodata_fetching.py conda-forge-sharded python,0,0,0.0,0.0,502700959,290816,0
+conda_create_conda_forge_sharded_warm_python,python scripts/sharded_repodata_fetching.py conda-forge-sharded python,0,0,0.0,0.0,503055584,290816,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,506832417,278528,0
+conda_create_conda_forge_sharded_cold_datascience,python scripts/sharded_repodata_fetching.py conda-forge-sharded pandas plotly scipy,2069431,157776,0.64,0.13,4520252961,126332928,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,506858542,282624,0
+conda_create_conda_forge_sharded_cold_datascience,python scripts/sharded_repodata_fetching.py conda-forge-sharded pandas plotly scipy,2070607,157776,0.43,0.08,2006836918,110518272,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,506678417,290816,0
+conda_create_conda_forge_sharded_cold_datascience,python scripts/sharded_repodata_fetching.py conda-forge-sharded pandas plotly scipy,2070613,157578,0.42,0.09,2006081251,109809664,0
+conda_create_conda_forge_sharded_warm_datascience,python scripts/sharded_repodata_fetching.py conda-forge-sharded pandas plotly scipy,0,0,0.29,0.04,1012754334,104873984,0
+conda_create_conda_forge_sharded_warm_datascience,python scripts/sharded_repodata_fetching.py conda-forge-sharded pandas plotly scipy,0,0,0.31,0.03,1014529417,118669312,0
+conda_create_conda_forge_sharded_warm_datascience,python scripts/sharded_repodata_fetching.py conda-forge-sharded pandas plotly scipy,0,0,0.3,0.03,1011627501,115642368,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,505263584,290816,0
+set_config,python -m conda config --set plugins.use_sharded_repodata false,0,0,0.0,0.0,506896209,290816,0
+conda_create_conda_forge_cold_python,python scripts/sharded_repodata_fetching.py conda-forge python,72999841,354716,11.07,2.27,21116039843,1740795904,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,508938750,159744,0
+conda_create_conda_forge_cold_python,python scripts/sharded_repodata_fetching.py conda-forge python,73040758,359114,11.11,2.46,21143622676,1722372096,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,507599375,290816,0
+conda_create_conda_forge_cold_python,python scripts/sharded_repodata_fetching.py conda-forge python,73071714,393194,11.57,2.79,22155316635,1715335168,0
+conda_create_conda_forge_warm_python,python scripts/sharded_repodata_fetching.py conda-forge python,42,42,8.62,1.56,10586434713,1727762432,0
+conda_create_conda_forge_warm_python,python scripts/sharded_repodata_fetching.py conda-forge python,0,0,8.48,1.13,10079160755,1729896448,0
+conda_create_conda_forge_warm_python,python scripts/sharded_repodata_fetching.py conda-forge python,0,0,8.14,1.51,10074768005,1704640512,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,508271625,290816,0
+conda_create_conda_forge_cold_datascience,python scripts/sharded_repodata_fetching.py conda-forge pandas plotly scipy,73058157,455516,11.09,2.37,21151303343,1712549888,0
+clean,python -m conda clean --all --yes,0,0,0.0,0.0,504739208,290816,0
+conda_create_conda_forge_cold_datascience,python scripts/sharded_repodata_fetching.py conda-forge pandas plotly scipy,73000080,400322,11.3,3.4,22769017718,1721114624,0
+clean,python -m conda clean --all --yes,0,0,0.28,0.22,1012274750,72228864,0
+conda_create_conda_forge_cold_datascience,python scripts/sharded_repodata_fetching.py conda-forge pandas plotly scipy,73012135,254834,12.15,3.2,23161690885,1733128192,0
+conda_create_conda_forge_warm_datascience,python scripts/sharded_repodata_fetching.py conda-forge pandas plotly scipy,0,0,9.39,2.24,12130666006,1738747904,0
+conda_create_conda_forge_warm_datascience,python scripts/sharded_repodata_fetching.py conda-forge pandas plotly scipy,0,0,8.47,1.63,10585519338,1703899136,0
+conda_create_conda_forge_warm_datascience,python scripts/sharded_repodata_fetching.py conda-forge pandas plotly scipy,0,0,9.05,1.57,11088421963,1724366848,0
