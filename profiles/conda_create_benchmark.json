@@ -1,0 +1,161 @@
+{
+  "commands": [
+    {
+      "name": "set_config_sharded",
+      "command": "conda config --set plugins.use_sharded_repodata true"
+    },
+    {
+      "name": "clean",
+      "command": "conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_forge_sharded_cold_python",
+      "command": "conda create -n bench_env_1 -c conda-forge-sharded python=3.11 --yes"
+    },
+    {
+      "name": "remove_env",
+      "command": "conda env remove -n bench_env_1 --yes"
+    },
+    {
+      "name": "clean",
+      "command": "conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_forge_sharded_cold_python",
+      "command": "conda create -n bench_env_2 -c conda-forge-sharded python=3.11 --yes"
+    },
+    {
+      "name": "remove_env",
+      "command": "conda env remove -n bench_env_2 --yes"
+    },
+    {
+      "name": "clean",
+      "command": "conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_forge_sharded_cold_python",
+      "command": "conda create -n bench_env_3 -c conda-forge-sharded python=3.11 --yes"
+    },
+    {
+      "name": "remove_env",
+      "command": "conda env remove -n bench_env_3 --yes"
+    },
+    {
+      "name": "clean",
+      "command": "conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_forge_sharded_cold_datascience",
+      "command": "conda create -n bench_env_4 -c conda-forge-sharded python=3.11 pandas plotly scipy numpy matplotlib --yes"
+    },
+    {
+      "name": "remove_env",
+      "command": "conda env remove -n bench_env_4 --yes"
+    },
+    {
+      "name": "clean",
+      "command": "conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_forge_sharded_cold_datascience",
+      "command": "conda create -n bench_env_5 -c conda-forge-sharded python=3.11 pandas plotly scipy numpy matplotlib --yes"
+    },
+    {
+      "name": "remove_env",
+      "command": "conda env remove -n bench_env_5 --yes"
+    },
+    {
+      "name": "clean",
+      "command": "conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_forge_sharded_cold_datascience",
+      "command": "conda create -n bench_env_6 -c conda-forge-sharded python=3.11 pandas plotly scipy numpy matplotlib --yes"
+    },
+    {
+      "name": "remove_env",
+      "command": "conda env remove -n bench_env_6 --yes"
+    },
+    {
+      "name": "clean",
+      "command": "conda clean --all --yes"
+    },
+    {
+      "name": "set_config_standard",
+      "command": "conda config --set plugins.use_sharded_repodata false"
+    },
+    {
+      "name": "clean",
+      "command": "conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_forge_cold_python",
+      "command": "conda create -n bench_env_7 -c conda-forge python=3.11 --yes"
+    },
+    {
+      "name": "remove_env",
+      "command": "conda env remove -n bench_env_7 --yes"
+    },
+    {
+      "name": "clean",
+      "command": "conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_forge_cold_python",
+      "command": "conda create -n bench_env_8 -c conda-forge python=3.11 --yes"
+    },
+    {
+      "name": "remove_env",
+      "command": "conda env remove -n bench_env_8 --yes"
+    },
+    {
+      "name": "clean",
+      "command": "conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_forge_cold_python",
+      "command": "conda create -n bench_env_9 -c conda-forge python=3.11 --yes"
+    },
+    {
+      "name": "remove_env",
+      "command": "conda env remove -n bench_env_9 --yes"
+    },
+    {
+      "name": "clean",
+      "command": "conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_forge_cold_datascience",
+      "command": "conda create -n bench_env_10 -c conda-forge python=3.11 pandas plotly scipy numpy matplotlib --yes"
+    },
+    {
+      "name": "remove_env",
+      "command": "conda env remove -n bench_env_10 --yes"
+    },
+    {
+      "name": "clean",
+      "command": "conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_forge_cold_datascience",
+      "command": "conda create -n bench_env_11 -c conda-forge python=3.11 pandas plotly scipy numpy matplotlib --yes"
+    },
+    {
+      "name": "remove_env",
+      "command": "conda env remove -n bench_env_11 --yes"
+    },
+    {
+      "name": "clean",
+      "command": "conda clean --all --yes"
+    },
+    {
+      "name": "conda_create_forge_cold_datascience",
+      "command": "conda create -n bench_env_12 -c conda-forge python=3.11 pandas plotly scipy numpy matplotlib --yes"
+    },
+    {
+      "name": "remove_env",
+      "command": "conda env remove -n bench_env_12 --yes"
+    }
+  ]
+}
+

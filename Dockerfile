@@ -3,8 +3,8 @@ FROM continuumio/miniconda3:latest
 RUN apt update && apt upgrade -y
 
 WORKDIR /app/
-COPY profiles/ .
-COPY scripts/ .
+COPY profiles/ profiles/
+COPY scripts/ scripts/
 
 RUN conda install conda-canary/label/dev::conda-libmamba-solver  --yes --quiet
 RUN conda install conda-forge::py-rattler --yes --quiet

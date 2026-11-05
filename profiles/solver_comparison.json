@@ -1,0 +1,292 @@
+{
+  "commands": [
+    {
+      "name": "clean_libmamba_python_1",
+      "command": "python scripts/clean_solver_benchmark.py"
+    },
+    {
+      "name": "create_libmamba_python_cold_1",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-python-cold-1 --solver libmamba --override-channels -c conda-forge --no-default-packages -y python=3.13"
+    },
+    {
+      "name": "remove_libmamba_python_cold_1",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/libmamba-python-cold-1 -y"
+    },
+    {
+      "name": "create_libmamba_python_warm_1",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-python-warm-1 --solver libmamba --override-channels -c conda-forge --no-default-packages -y python=3.13"
+    },
+    {
+      "name": "remove_libmamba_python_warm_1",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/libmamba-python-warm-1 -y"
+    },
+    {
+      "name": "dryrun_libmamba_python_warm_1",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-python-warm-1 --solver libmamba --override-channels -c conda-forge --no-default-packages --dry-run -y python=3.13"
+    },
+    {
+      "name": "clean_rattler_python_1",
+      "command": "python scripts/clean_solver_benchmark.py"
+    },
+    {
+      "name": "create_rattler_python_cold_1",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-python-cold-1 --solver rattler --override-channels -c conda-forge --no-default-packages -y python=3.13"
+    },
+    {
+      "name": "remove_rattler_python_cold_1",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/rattler-python-cold-1 -y"
+    },
+    {
+      "name": "create_rattler_python_warm_1",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-python-warm-1 --solver rattler --override-channels -c conda-forge --no-default-packages -y python=3.13"
+    },
+    {
+      "name": "remove_rattler_python_warm_1",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/rattler-python-warm-1 -y"
+    },
+    {
+      "name": "dryrun_rattler_python_warm_1",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-python-warm-1 --solver rattler --override-channels -c conda-forge --no-default-packages --dry-run -y python=3.13"
+    },
+    {
+      "name": "clean_libmamba_science_1",
+      "command": "python scripts/clean_solver_benchmark.py"
+    },
+    {
+      "name": "create_libmamba_science_cold_1",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-science-cold-1 --solver libmamba --override-channels -c conda-forge --no-default-packages -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "remove_libmamba_science_cold_1",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/libmamba-science-cold-1 -y"
+    },
+    {
+      "name": "create_libmamba_science_warm_1",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-science-warm-1 --solver libmamba --override-channels -c conda-forge --no-default-packages -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "remove_libmamba_science_warm_1",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/libmamba-science-warm-1 -y"
+    },
+    {
+      "name": "dryrun_libmamba_science_warm_1",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-science-warm-1 --solver libmamba --override-channels -c conda-forge --no-default-packages --dry-run -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "clean_rattler_science_1",
+      "command": "python scripts/clean_solver_benchmark.py"
+    },
+    {
+      "name": "create_rattler_science_cold_1",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-science-cold-1 --solver rattler --override-channels -c conda-forge --no-default-packages -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "remove_rattler_science_cold_1",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/rattler-science-cold-1 -y"
+    },
+    {
+      "name": "create_rattler_science_warm_1",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-science-warm-1 --solver rattler --override-channels -c conda-forge --no-default-packages -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "remove_rattler_science_warm_1",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/rattler-science-warm-1 -y"
+    },
+    {
+      "name": "dryrun_rattler_science_warm_1",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-science-warm-1 --solver rattler --override-channels -c conda-forge --no-default-packages --dry-run -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "clean_rattler_python_2",
+      "command": "python scripts/clean_solver_benchmark.py"
+    },
+    {
+      "name": "create_rattler_python_cold_2",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-python-cold-2 --solver rattler --override-channels -c conda-forge --no-default-packages -y python=3.13"
+    },
+    {
+      "name": "remove_rattler_python_cold_2",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/rattler-python-cold-2 -y"
+    },
+    {
+      "name": "create_rattler_python_warm_2",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-python-warm-2 --solver rattler --override-channels -c conda-forge --no-default-packages -y python=3.13"
+    },
+    {
+      "name": "remove_rattler_python_warm_2",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/rattler-python-warm-2 -y"
+    },
+    {
+      "name": "dryrun_rattler_python_warm_2",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-python-warm-2 --solver rattler --override-channels -c conda-forge --no-default-packages --dry-run -y python=3.13"
+    },
+    {
+      "name": "clean_libmamba_python_2",
+      "command": "python scripts/clean_solver_benchmark.py"
+    },
+    {
+      "name": "create_libmamba_python_cold_2",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-python-cold-2 --solver libmamba --override-channels -c conda-forge --no-default-packages -y python=3.13"
+    },
+    {
+      "name": "remove_libmamba_python_cold_2",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/libmamba-python-cold-2 -y"
+    },
+    {
+      "name": "create_libmamba_python_warm_2",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-python-warm-2 --solver libmamba --override-channels -c conda-forge --no-default-packages -y python=3.13"
+    },
+    {
+      "name": "remove_libmamba_python_warm_2",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/libmamba-python-warm-2 -y"
+    },
+    {
+      "name": "dryrun_libmamba_python_warm_2",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-python-warm-2 --solver libmamba --override-channels -c conda-forge --no-default-packages --dry-run -y python=3.13"
+    },
+    {
+      "name": "clean_rattler_science_2",
+      "command": "python scripts/clean_solver_benchmark.py"
+    },
+    {
+      "name": "create_rattler_science_cold_2",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-science-cold-2 --solver rattler --override-channels -c conda-forge --no-default-packages -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "remove_rattler_science_cold_2",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/rattler-science-cold-2 -y"
+    },
+    {
+      "name": "create_rattler_science_warm_2",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-science-warm-2 --solver rattler --override-channels -c conda-forge --no-default-packages -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "remove_rattler_science_warm_2",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/rattler-science-warm-2 -y"
+    },
+    {
+      "name": "dryrun_rattler_science_warm_2",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-science-warm-2 --solver rattler --override-channels -c conda-forge --no-default-packages --dry-run -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "clean_libmamba_science_2",
+      "command": "python scripts/clean_solver_benchmark.py"
+    },
+    {
+      "name": "create_libmamba_science_cold_2",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-science-cold-2 --solver libmamba --override-channels -c conda-forge --no-default-packages -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "remove_libmamba_science_cold_2",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/libmamba-science-cold-2 -y"
+    },
+    {
+      "name": "create_libmamba_science_warm_2",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-science-warm-2 --solver libmamba --override-channels -c conda-forge --no-default-packages -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "remove_libmamba_science_warm_2",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/libmamba-science-warm-2 -y"
+    },
+    {
+      "name": "dryrun_libmamba_science_warm_2",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-science-warm-2 --solver libmamba --override-channels -c conda-forge --no-default-packages --dry-run -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "clean_libmamba_python_3",
+      "command": "python scripts/clean_solver_benchmark.py"
+    },
+    {
+      "name": "create_libmamba_python_cold_3",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-python-cold-3 --solver libmamba --override-channels -c conda-forge --no-default-packages -y python=3.13"
+    },
+    {
+      "name": "remove_libmamba_python_cold_3",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/libmamba-python-cold-3 -y"
+    },
+    {
+      "name": "create_libmamba_python_warm_3",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-python-warm-3 --solver libmamba --override-channels -c conda-forge --no-default-packages -y python=3.13"
+    },
+    {
+      "name": "remove_libmamba_python_warm_3",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/libmamba-python-warm-3 -y"
+    },
+    {
+      "name": "dryrun_libmamba_python_warm_3",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-python-warm-3 --solver libmamba --override-channels -c conda-forge --no-default-packages --dry-run -y python=3.13"
+    },
+    {
+      "name": "clean_rattler_python_3",
+      "command": "python scripts/clean_solver_benchmark.py"
+    },
+    {
+      "name": "create_rattler_python_cold_3",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-python-cold-3 --solver rattler --override-channels -c conda-forge --no-default-packages -y python=3.13"
+    },
+    {
+      "name": "remove_rattler_python_cold_3",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/rattler-python-cold-3 -y"
+    },
+    {
+      "name": "create_rattler_python_warm_3",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-python-warm-3 --solver rattler --override-channels -c conda-forge --no-default-packages -y python=3.13"
+    },
+    {
+      "name": "remove_rattler_python_warm_3",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/rattler-python-warm-3 -y"
+    },
+    {
+      "name": "dryrun_rattler_python_warm_3",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-python-warm-3 --solver rattler --override-channels -c conda-forge --no-default-packages --dry-run -y python=3.13"
+    },
+    {
+      "name": "clean_libmamba_science_3",
+      "command": "python scripts/clean_solver_benchmark.py"
+    },
+    {
+      "name": "create_libmamba_science_cold_3",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-science-cold-3 --solver libmamba --override-channels -c conda-forge --no-default-packages -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "remove_libmamba_science_cold_3",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/libmamba-science-cold-3 -y"
+    },
+    {
+      "name": "create_libmamba_science_warm_3",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-science-warm-3 --solver libmamba --override-channels -c conda-forge --no-default-packages -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "remove_libmamba_science_warm_3",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/libmamba-science-warm-3 -y"
+    },
+    {
+      "name": "dryrun_libmamba_science_warm_3",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/libmamba-science-warm-3 --solver libmamba --override-channels -c conda-forge --no-default-packages --dry-run -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "clean_rattler_science_3",
+      "command": "python scripts/clean_solver_benchmark.py"
+    },
+    {
+      "name": "create_rattler_science_cold_3",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-science-cold-3 --solver rattler --override-channels -c conda-forge --no-default-packages -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "remove_rattler_science_cold_3",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/rattler-science-cold-3 -y"
+    },
+    {
+      "name": "create_rattler_science_warm_3",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-science-warm-3 --solver rattler --override-channels -c conda-forge --no-default-packages -y python=3.13 numpy pandas scipy matplotlib"
+    },
+    {
+      "name": "remove_rattler_science_warm_3",
+      "command": "conda env remove -p /tmp/perfpy-conda-solver-bench/rattler-science-warm-3 -y"
+    },
+    {
+      "name": "dryrun_rattler_science_warm_3",
+      "command": "conda create -p /tmp/perfpy-conda-solver-bench/rattler-science-warm-3 --solver rattler --override-channels -c conda-forge --no-default-packages --dry-run -y python=3.13 numpy pandas scipy matplotlib"
+    }
+  ]
+}
